@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+reports/
+keys/
+*service-account*.json
+*-key.json

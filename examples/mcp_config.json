@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "core-update-audit": {
+      "command": "/path/to/trickyworld_core_update_audit/.venv/bin/python",
+      "args": ["/path/to/trickyworld_core_update_audit/mcp_server.py"],
+      "env": {
+        "GSC_PROPERTY": "sc-domain:example.com",
+        "GSC_SERVICE_ACCOUNT_FILE": "/home/you/keys/gsc-reader.json"
+      }
+    }
+  }
+}

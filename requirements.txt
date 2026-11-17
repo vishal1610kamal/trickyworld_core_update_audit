@@ -1,0 +1,5 @@
+# coreaudit.py status needs none of these. audit and compare need google-auth and requests; mcp_server.py needs mcp.
+mcp>=2.2,<3
+google-auth>=2.40,<3
+requests>=2.32,<3
+tzdata; sys_platform == "win32"
